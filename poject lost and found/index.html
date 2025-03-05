@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khoya Paya Point</title>
+  <link rel="stylesheet" href="one.css">
+  
+  <script src="one.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+ 
+<div  id="theme">
+  
+  <header>
+    <h1>LOST AND FOUND POINT</h1>
+    <h2>MMMUT GORAKHPUR</h2>
+    <p>Your campus hub for lost and found items</p>
+  </header>
+  </div>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="review.html">REVIEW</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
+      <li><a href="lost.html">CONTACT US </a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="lost-found-items">
+      <h2>Lost and Found Items Near You</h2>
+      <div class="items">
+        <div class="item lost">
+          <h3>Lost: Laptop</h3>
+          <p>Location: Library, 2nd Floor</p>
+        </div>
+        <div class="item found">
+          <h3>Found: Wallet</h3>
+          <p>Location: Cafeteria</p>
+        </div>
+        <div class="item lost">
+          <h3>Lost: Headphones</h3>
+          <p>Location: Main Gate</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="report-form">
+      <h2>Report a Lost or Found Item</h2>
+      <form id="item-report-form">
+        <label for="item-name">Item Name:</label>
+        <input type="text" id="item-name" name="item-name" required>
+
+        <label for="item-status">Status:</label>
+        <select id="item-status" name="item-status">
+          <option value="lost">Lost</option>
+          <option value="found">Found</option>
+        </select>
+
+        <label for="item-location">Location:</label>
+        <input type="text" id="item-location" name="item-location" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 lost and found Point | College Project |MMMUT GORAKHPUR </p>
+  </footer>
+
+</body>
+</html>

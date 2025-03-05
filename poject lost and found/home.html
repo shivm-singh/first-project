@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost and Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #3b6997;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #397ca3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .feature {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature h3 {
+            margin: 1rem 0;
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .profile-section input, 
+        .profile-section button {
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .profile-section button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .profile-section button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lost and Found</h1>
+        <p>Connecting people to recover lost belongings</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#profile">Create Profile</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Welcome to Lost and Found</h1>
+            <p>Your ultimate solution to find and report lost items</p>
+        </section>
+
+        <section class="profile-section" id="profile">
+            <h2>Create Your Profile</h2>
+            <p>Get started by creating a profile to list lost or found items</p>
+            <form>
+                <input type="text" placeholder="Enter your name" required><br>
+                <input type="email" placeholder="Enter your email" required><br>
+                <input type="password" placeholder="Create a password" required><br>
+                <button type="submit">Create Profile</button>
+            </form>
+        </section>
+
+        <section class="features" id="features">
+            <div class="feature">
+                <h3>Report Lost Items</h3>
+                <p>Describe what you've lost and where, and let us help you find it.</p>
+            </div>
+            <div class="feature">
+                <h3>Report Found Items</h3>
+                <p>Found something? List it here so the owner can claim it.</p>
+            </div>
+            <div class="feature">
+                <h3>Community Support</h3>
+                <p>Join a community of helpful people dedicated to connecting lost items with their owners.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Lost and Found. All rights reserved.</p>
+    </footer>
+</body>
+</html>

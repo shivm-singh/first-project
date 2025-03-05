@@ -1,0 +1,173 @@
+/* Reset some default styles */
+#theme{
+  display: flex;
+  justify-content: center;
+  
+  padding: 25px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2LWO6BeI4JJldWkwn3t3ATqajeK_UX6oEQ&s);
+}
+
+header h2 {
+color: rgb(213, 213, 231);
+}
+header h1{
+color: rgb(233, 239, 224);
+}
+header p{
+  font-style: italic;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+  
+  /* General Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #afc1c6;
+    color: #333;
+    padding: 20px;
+  }
+  /* Header Styles */
+  header {
+    text-align: center;
+    background-color: #478baf;
+    color: white;
+    padding: 20px;
+    border-radius: 3%;
+       }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.1-rem;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f2f3f5;
+    font-size: 1.3rem;
+    background-color: #5694b6;
+    border-radius: 20%;
+  }
+  
+  nav ul li a:hover {
+    color: #0056b3;
+  }
+  
+  /* Main Section Styles */
+  main {
+    margin-top: 30px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Lost and Found Items */
+  #lost-found-items h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(205, 210, 211, 0.1);
+  }
+  
+  .item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  
+  .item p {
+    font-size: 1rem;
+  }
+  
+  /* Lost Items Styling */
+  .lost {
+    border-left: 5px solid red;
+  }
+  
+  /* Found Items Styling */
+  .found {
+    border-left: 5px solid green;
+  }
+  
+  /* Report Form */
+  #report-form {
+    background-color:  #5694b6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #report-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  #report-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  
+  #report-form input,
+  #report-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #report-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a5c5e8;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #report-form button:hover {
+    background-color: #4a4c4e;
+    
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #8db2d9;
+    color: rgb(71, 98, 154);
+  }
+  
